@@ -17,4 +17,5 @@ public class Animals {
 		System.out.println(dog.getName());
 		System.out.println(parrot.getName());
 	}
+
 }
