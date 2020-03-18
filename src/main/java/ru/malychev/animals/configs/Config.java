@@ -6,6 +6,7 @@ import ru.malychev.animals.entities.*;
 
 @Configuration
 public class Config {
+
 	@Bean
 	public Cat getCat(Parrot parrot){
 		Cat cat = new Cat();
@@ -22,4 +23,5 @@ public class Config {
 	public Parrot getParrot() {
 		return new Parrot();
 	}
+
 }
