@@ -1,4 +1,4 @@
-package ru.malychev.weekdays;
+package ru.malychev.weekdays.entities;
 
 public class Friday implements WeekDay{
 	@Override
